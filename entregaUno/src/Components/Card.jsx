@@ -1,10 +1,11 @@
 import React from 'react'
 
 
-const Card = () => {
+
+const Card = ({ codigo, nombre }) => {
   return (
     <div>
-      Hola,soy una tarjeta
+      Hola mascota {nombre},su codigo es {codigo}.
     </div>
   )
 }
